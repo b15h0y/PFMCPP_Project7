@@ -2,8 +2,8 @@
 #include "Utility.h"
 
 Dwarf::Dwarf (std::string n, int hp, int armor) : 
-name(n),
-Character(hp, armor, 4)
+Character(hp, armor, 4),
+name(n)
 {
     helpfulItems = makeHelpfulItems(2);
     defensiveItems = makeDefensiveItems(5);

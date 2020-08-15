@@ -3,8 +3,8 @@
 
 //Dragon::Dragon
 Dragon::Dragon (std::string n, int hp, int armor) :
-name(n), 
-Character(hp, armor, 80)
+Character(hp, armor, 80),
+name(n)
 {
     
 }
