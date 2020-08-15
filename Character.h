@@ -4,6 +4,7 @@
 #include <vector>
 #include <memory>
 #include <iostream>
+#include "Utility.h"
 
 #include "Item.h"
 
@@ -61,6 +62,8 @@ struct Character
         std::cout << std::endl;
         std::cout << std::endl;
     }
+    void defeatedAndLevelUp(int& , int& curr);
+
 protected:
     std::vector<std::unique_ptr<Item>> defensiveItems;
     std::vector<std::unique_ptr<Item>> helpfulItems;
